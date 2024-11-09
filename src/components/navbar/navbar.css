@@ -1,0 +1,40 @@
+.border-bottom-main {
+  border-bottom: 1px solid #dcca87;
+  padding-block: 10px;
+  z-index: 10;
+}
+
+.link {
+  text-decoration: none;
+  font-size: 20px;
+  z-index: 10;
+  color: #dcca87;
+  line-height: 20px;
+  font-weight: 500;
+}
+
+.z{
+    z-index: 10;
+}
+
+.navbar-background {
+  background-image: url("../../assets/backgrounds/herobackground.jpg");
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.navbar-background:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 1),
+    rgba(124, 123, 123, 0)
+  );
+}
