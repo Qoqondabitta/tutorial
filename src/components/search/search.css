@@ -1,0 +1,115 @@
+.search-container-adjustments {
+  padding: 50px;
+  border-radius: 5px;
+  /* background-color: red; */
+  margin-block: 50px;
+  border: 1px solid #dcca87;
+}
+
+.search-exercise-title {
+  color: #dcca87;
+  font-size: 30px;
+  line-height: 40px;
+  font-family: "Gruppo", sans-serif;
+  text-align: center;
+  font-weight: 800;
+}
+
+.form {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.search-btn {
+  background-color: #dcca87;
+  color: black;
+  border: none;
+  border-radius: 0px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  cursor: pointer;
+}
+
+.imput-wrapper {
+  position: relative;
+  width: 50%;
+}
+
+.input {
+  padding: 11px;
+  background-color: transparent;
+  border: 1px solid #dcca87;
+  border-right: none;
+  width: 100%;
+  outline: none;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  color: #dcca87;
+}
+
+.form input:focus {
+  border-color: #eee;
+  /* padding-bottom: 3px; */
+  position: relative;
+  /* top: 10px; */
+}
+
+.form input::placeholder {
+  color: transparent;
+}
+
+.form .label {
+  position: absolute;
+  top: 7px;
+  font-weight: 600;
+  left: 20px;
+  color: #dcca87;
+  font-size: 16px;
+  z-index: 0;
+  pointer-events: none;
+  transition: 0.15s all ease;
+}
+
+input:focus + .label {
+  background-color: black;
+  padding-inline: 10px;
+  transform: translate(-10px, -20px);
+}
+
+.exercise-box {
+  width: 200px;
+  height: 250px;
+  border-radius: 5px;
+  border: 1px solid white;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.ex-box1{
+    background-image: url(../../assets/images/chest.jpg);
+    background-position: top;
+}
+
+
+.ex-box2{
+    background-image: url(../../assets/images/legs.webp);
+    background-position: bottom;
+}
+
+.ex-box3{
+    background-image: url(../../assets/images/abc.jpg);
+    background-position: bottom;
+}
+
+.ex-box4{
+    background-image: url(../../assets/images/back.jpg);
+    background-position: top;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+  .search-container-adjustments {
+    padding-inline: 20px;
+  }
+}
